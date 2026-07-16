@@ -1,0 +1,50 @@
+.data-files h2 {
+  text-align: center;
+  color: #667eea;
+  margin-bottom: 20px;
+}
+
+.files-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.file-card {
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.file-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(102, 126, 234, 0.3);
+  border-color: #667eea;
+}
+
+.file-icon {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.file-card h3 {
+  margin: 10px 0;
+  color: #333;
+  word-break: break-all;
+}
+
+.file-card p {
+  color: #666;
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.2em;
+  color: #667eea;
+}

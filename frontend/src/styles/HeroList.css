@@ -1,0 +1,74 @@
+.hero-list h2 {
+  text-align: center;
+  color: #667eea;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 1em;
+  box-sizing: border-box;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.heroes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.hero-card {
+  background: white;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hero-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(102, 126, 234, 0.3);
+  border-color: #667eea;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.hero-card h3 {
+  margin: 10px 0;
+  color: #333;
+  font-size: 1em;
+}
+
+.hero-role {
+  color: #666;
+  font-size: 0.9em;
+  margin: 5px 0;
+}
+
+.hero-id {
+  color: #999;
+  font-size: 0.8em;
+  margin: 5px 0;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  font-size: 1.2em;
+  color: #667eea;
+}
