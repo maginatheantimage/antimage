@@ -1,0 +1,16 @@
+{
+  "name": "dota-stats-tracker",
+  "version": "1.0.0",
+  "description": "Dota 2 stats tracker web application",
+  "scripts": {
+    "setup": "chmod +x setup.sh && ./setup.sh",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\"",
+    "backend": "cd backend && npm start",
+    "frontend": "cd frontend && npm start",
+    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
+    "update-stats": "cd backend && npm run update-stats"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
